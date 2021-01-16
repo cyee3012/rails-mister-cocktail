@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # get '/cocktails/new', to: 'cocktails#new'
   # post '/cocktails', to: 'cocktails#create'
 
-  resources :cocktails, only: [ :index, :show, :new, :create ]
+  resources :cocktails, only: [:index, :show, :new, :create]
 
 end
