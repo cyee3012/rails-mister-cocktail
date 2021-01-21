@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  background: #575761;
+
+  h1 {
+    color: #E4FDE1;
+    padding: 20px;
+  }
+
+  h4:hover {
+    color: #E4FDE1;
+  }
+
+  img:hover {
+    opacity: 0.5;
+  }
+}
