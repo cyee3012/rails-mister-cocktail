@@ -1,4 +1,4 @@
-<h1>Add dose</h1>
+<h1>add stuff you need for "<%= @cocktail.name.downcase %>"</h1>
 
 <%= simple_form_for [ @cocktail, @dose ] do |f| %>
  <%= f.association :ingredient %>
@@ -6,4 +6,5 @@
  <%= f.submit %>
 <% end %>
 
-<%= link_to "Back to cocktail list", cocktails_path  %>
+<%= link_to "back to #{@cocktail.name.downcase}" , cocktail_path(@cocktail) %><br>
+<%= link_to "back to cocktail list", cocktails_path  %>
