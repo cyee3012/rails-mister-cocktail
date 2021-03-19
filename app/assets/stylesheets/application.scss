@@ -24,11 +24,16 @@ body {
     font-family: 'Dancing Script', cursive;
   }
 
-  a:hover a:visited a:active {
+  a:hover {
     color: #E4FDE1;
     text-decoration: none;
-
   }
+
+  li {
+    color: #E4FDE1;
+    font-family: 'Dancing Script', cursive;
+  }
+
 
   img:hover {
     opacity: 0.5;
