@@ -14,18 +14,22 @@
 
 
 body {
-  background: #575761;
+  background: black;
 
-  h1 {
+}
+  a {
     color: #E4FDE1;
     padding: 20px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
   }
 
-  h4:hover {
+  a:hover a:visited a:active {
     color: #E4FDE1;
+    text-decoration: none;
+
   }
 
   img:hover {
     opacity: 0.5;
   }
-}
