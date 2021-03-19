@@ -22,18 +22,27 @@ body {
     padding: 20px;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
+    opacity: 0.8;
+  }
+
+  h2 {
+    color: #E4FDE1;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0.8;
   }
 
   a:hover {
     color: #E4FDE1;
     text-decoration: none;
+    opacity: 0.5;
   }
 
   li {
     color: #E4FDE1;
     font-family: 'Dancing Script', cursive;
   }
-
 
   img:hover {
     opacity: 0.5;
