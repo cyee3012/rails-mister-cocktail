@@ -1,0 +1,16 @@
+.btn-flat {
+  color: black;
+  border-radius: 4px;
+  background: #E4FDE1;
+  transition: background 0.3s ease;
+  right: 10px;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.btn-flat:hover {
+  background: #E4FDE1;
+  color: black;
+  opacity: 1;
+}

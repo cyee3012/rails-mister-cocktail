@@ -14,18 +14,59 @@
 
 
 body {
-  background: #575761;
+  background: black;
 
-  h1 {
-    color: #E4FDE1;
-    padding: 20px;
-  }
+}
+h1 {
+  color: #E4FDE1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
 
-  h4:hover {
-    color: #E4FDE1;
-  }
+a {
+  color: #E4FDE1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
 
-  img:hover {
-    opacity: 0.5;
-  }
+h2 {
+  color: #E4FDE1;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
+
+h4 {
+  color: #E4FDE1;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: #E4FDE1;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+li {
+  color: #E4FDE1;
+  font-family: 'Dancing Script', cursive;
+  list-style-type: none;
+}
+
+.card-category:hover {
+  opacity: 0.8;
+}
+
+label {
+  color: #E4FDE1;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
 }
