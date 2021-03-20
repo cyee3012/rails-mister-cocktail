@@ -17,41 +17,56 @@ body {
   background: black;
 
 }
-  h1 {
-    color: #E4FDE1;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    opacity: 0.8;
-  }
+h1 {
+  color: #E4FDE1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
 
-  a {
-    color: #E4FDE1;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    opacity: 0.8;
-  }
+a {
+  color: #E4FDE1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
 
-  h2 {
-    color: #E4FDE1;
-    padding: 20px;
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    opacity: 0.8;
-  }
+h2 {
+  color: #E4FDE1;
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
 
-  a:hover {
-    color: #E4FDE1;
-    text-decoration: none;
-    opacity: 0.5;
-  }
+h4 {
+  color: #E4FDE1;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
 
-  li {
-    color: #E4FDE1;
-    font-family: 'Dancing Script', cursive;
-  }
+a:hover {
+  color: #E4FDE1;
+  text-decoration: none;
+  opacity: 0.5;
+}
 
-  img:hover {
-    opacity: 0.5;
-  }
+li {
+  color: #E4FDE1;
+  font-family: 'Dancing Script', cursive;
+  list-style-type: none;
+}
+
+.card-category:hover {
+  opacity: 0.8;
+}
+
+label {
+  color: #E4FDE1;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0.8;
+}
