@@ -3,7 +3,7 @@
 
   <%= simple_form_for (@cocktail) do |f| %>
    <%= f.input :name %>
-   <%= f.input :photo, as: :file %>
+   <%= f.input :photo, as: :file, class: "btn btn-flat" %>
    <%= f.button :submit, 'add cocktail', class: "btn btn-flat" %>
   <% end %>
 

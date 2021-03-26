@@ -17,16 +17,9 @@ body {
   background: black;
 
 }
-h1 {
-  color: #E4FDE1;
-  padding: 20px;
-  text-decoration: none;
-  font-family: 'Dancing Script', cursive;
-  opacity: 0.8;
-}
 
 a {
-  color: #E4FDE1;
+  color: #f9e2c3;
   padding: 20px;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
@@ -34,7 +27,7 @@ a {
 }
 
 h2 {
-  color: #E4FDE1;
+  color: #f9e2c3;
   padding: 5px;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
@@ -42,21 +35,22 @@ h2 {
 }
 
 h4 {
-  color: #E4FDE1;
+  padding-top: 10px;
+  color: #f9e2c3;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
-  opacity: 0.8;
+  opacity: 1;
   margin-bottom: 20px;
 }
 
 a:hover {
-  color: #E4FDE1;
+  color: #f9e2c3;
   text-decoration: none;
   opacity: 0.5;
 }
 
 li {
-  color: #E4FDE1;
+  color: #f9e2c3;
   font-family: 'Dancing Script', cursive;
   list-style-type: none;
 }
@@ -66,7 +60,7 @@ li {
 }
 
 label {
-  color: #E4FDE1;
+  color: #f9e2c3;
   font-family: 'Dancing Script', cursive;
   opacity: 0.8;
 }

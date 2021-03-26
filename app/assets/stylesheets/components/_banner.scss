@@ -1,0 +1,17 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://res.cloudinary.com/cyee3012/image/upload/v1616773144/bar_pfwj3x.jpg');
+  width: auto;
+  text-align: center;
+  height: 300px;
+  margin: auto;
+  background-size: cover;
+
+  h1 {
+    color: white;
+    padding: 100px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0.8;
+    font-size: 60px;
+  }
+}
