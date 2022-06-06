@@ -19,6 +19,5 @@
     "node": "16.x",
     "npm": "6.x",
     "yarn": "1.x",
-    "node-gyp": "3.x"
   }
 }
